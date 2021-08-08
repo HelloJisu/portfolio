@@ -619,7 +619,7 @@ function showPopup4(hasFilter) {
 }
 
 function closePopup4() {
-	const popup = document.querySelector('#popup1');
+	const popup = document.querySelector('#popup4');
   popup.classList.add('hide4');
 }
 
