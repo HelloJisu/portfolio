@@ -238,11 +238,11 @@ function handleScroll() {
   if (bgTop < 0) {
     const rate2 = (-1) * bgTop / 4;
     const ratee = (-1) * bgTop
-    const rate = Math.floor((-1) * bgTop/100);
+    const rate = Math.floor((-1) * bgTop/50);
     const rate3 = (-1) * bgTop / 50;
     const rate4 = bgHeight/80
     text.style.opacity = `${(100-rate2/5) / 100}`;
-    if(rate >= bgHeight/98){
+    if(rate >= bgHeight/50){
         color2.style.backgroundColor = "#ffffff"
         color.style.backgroundColor = "#ffffff"
         textcolor.style.color = "#000000"
