@@ -112,7 +112,7 @@ window.addEventListener('DOMContentLoaded', () => {
           stopTimer5();
           isPause1 = false
           if(start1){
-            timer1 = setInterval(fadeOut1, 4000);
+            timer1 = setInterval(fadeOut1, 2000);
           }
           start5 = true
           start4 = true
@@ -129,7 +129,7 @@ window.addEventListener('DOMContentLoaded', () => {
            stopTimer5();
            isPause2 = false
            if(start2){
-           timer2 = setInterval(fadeOut2, 3000);
+           timer2 = setInterval(fadeOut2, 2000);
            }
            start5 = true
             start4 = true
@@ -145,7 +145,7 @@ window.addEventListener('DOMContentLoaded', () => {
           stopTimer5();
           isPause3 = false
           if(start3){
-          timer3 = setInterval(fadeOut3, 3000);
+          timer3 = setInterval(fadeOut3, 2000);
           }
           start5 = true
           start4 = true
@@ -161,7 +161,7 @@ window.addEventListener('DOMContentLoaded', () => {
         stopTimer5();
         isPause4 = false
         if(start4){
-        timer4 = setInterval(fadeOut4, 3000);
+        timer4 = setInterval(fadeOut4, 2000);
         }
         start5 = true
         start4 = false
@@ -177,7 +177,7 @@ window.addEventListener('DOMContentLoaded', () => {
       stopTimer3();
       isPause5 = false
       if(start5){
-      timer5 = setInterval(fadeOut5, 3000);
+      timer5 = setInterval(fadeOut5, 2000);
       }
       start5 = false
       start4 = true
